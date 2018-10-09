@@ -1,0 +1,147 @@
+nav {
+    background: grey;
+    color: white;
+    box-shadow: 0px 5px 15px white;
+  }
+  
+  
+  .nav-item a {
+  color:white
+  }
+  
+  .nav-item a:hover {
+    color: #d9dce0;
+  }
+  .navbar-brand {
+    color: white;
+    padding: 5px;
+  }
+  
+  .navbar-brand:hover {
+    color: #d9dce0
+  }
+  
+  
+  .nav-item {
+    display: inline-block;
+    padding: 5px 15px;
+  }
+  
+  .nav-item:hover {
+    border: 1px solid white;
+    border-radius: 8%;
+    transition: 0.4s;
+    color: white;
+  }
+  
+  .navlogo {
+    height: 40px;
+    width: 40px;
+    margin: 0px 8px;
+    border-radius: 50px;
+  }
+  
+  h1 {
+    padding: 20px;
+  }
+  
+  form {
+    padding: 10px;
+  }
+  
+  .less-important {
+    opacity: 0.7;
+    font-size: 18px;
+  }
+  
+  #intro {
+    position: relative;
+    background-image:url('https://images.unsplash.com/photo-1521704042371-f13409bf0e6d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3ea502b6e5f128b0c85ed821913c91e2&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 35px 0px 65px 0px;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  @media (max-width: 420px) {
+    #intro {
+      margin-top: 140px;
+    }
+  }
+  
+  form {
+    padding: 20px;
+  }
+  
+  input{
+    width: 25%;
+    text-align: center;
+    padding: 2px;
+  }
+  
+  .col-lg-12 {
+    padding: 25px;
+  }
+  
+  #info {
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 10px;
+    opacity: 0.8
+  }
+  
+  .col-lg-4 {
+    display: inline;
+  }
+  
+  .col-lg-4 img {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+  }
+  
+  .col-lg-4 p, .col-lg-4 h3 {
+    padding: 10px 0px 0px 0px;
+    color: white;
+  }
+  
+  .col-lg-4 img {
+    height: 50%;
+    width: 50%;
+    border-radius: 10px
+  }
+  
+  #how-its-made {
+    background-image:url('https://images.unsplash.com/photo-1522230343759-97f263e326d6?ixlib=rb-0.3.5&s=363df2be0c1f807dbb779978989a445e&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    padding: 20px;
+    color: white;
+  }
+  
+  .embed-responsive-item {
+    padding: 50px;
+    margin: 50px;
+    width: 50%;
+    height: auto;
+    background: black;
+  }
+  
+  .page-footer {
+    background: grey;
+    color: white;
+    height: 100%;
+  }
+  
+  .button-active {
+    border-radius: 50px;
+    transform: scale(1.05);
+    transition: 0.9s ease-in-out;
+    }
+  
+  .btn {
+    background-color: grey;
+    color: white;
+  }
